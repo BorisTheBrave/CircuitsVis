@@ -13,7 +13,11 @@ numpy = [{ version = ">=1.20,<1.25", python = ">=3.8,<3.9" },
          { version = ">=1.24", python = ">=3.9,<3.12" },
          { version = ">=1.26", python = ">=3.12,<3.13" }]
 python = ">=3.8"
-torch = ">=2.1.1"
+
+# See https://github.com/python-poetry/poetry/issues/9293#issuecomment-2048205226
+[[tool.poetry.source]]
+name = "pypi-public"
+url = "https://pypi.org/simple/"
 
 [tool.poetry.group.dev.dependencies]
 autopep8 = ">=2.0"
