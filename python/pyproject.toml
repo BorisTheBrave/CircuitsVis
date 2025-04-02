@@ -15,6 +15,7 @@ numpy = [{ version = ">=1.20,<1.25", python = ">=3.8,<3.9" },
 python = ">=3.8"
 
 # See https://github.com/python-poetry/poetry/issues/9293#issuecomment-2048205226
+executing = ">=2.0.1"
 [[tool.poetry.source]]
 name = "pypi-public"
 url = "https://pypi.org/simple/"

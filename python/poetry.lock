@@ -710,14 +710,14 @@ reference = "pypi-public"
 
 [[package]]
 name = "executing"
-version = "2.0.0"
+version = "2.2.0"
 description = "Get the currently executing AST node of a frame, and other information"
 optional = false
-python-versions = "*"
-groups = ["jupyter"]
+python-versions = ">=3.8"
+groups = ["main", "jupyter"]
 files = [
-    {file = "executing-2.0.0-py2.py3-none-any.whl", hash = "sha256:06df6183df67389625f4e763921c6cf978944721abf3e714000200aab95b0657"},
-    {file = "executing-2.0.0.tar.gz", hash = "sha256:0ff053696fdeef426cda5bd18eacd94f82c91f49823a2e9090124212ceea9b08"},
+    {file = "executing-2.2.0-py2.py3-none-any.whl", hash = "sha256:11387150cad388d62750327a53d3339fad4888b39a6fe233c3afbb54ecffd3aa"},
+    {file = "executing-2.2.0.tar.gz", hash = "sha256:5d108c028108fe2551d1a7b2e8b713341e2cb4fc0aa7dcf966fa4327a5226755"},
 ]
 
 [package.extras]
@@ -3528,4 +3528,4 @@ reference = "pypi-public"
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.8"
-content-hash = "398d6ccb39ce4553c94794557119b24fddc85ee186cad366c2169f25be44e959"
+content-hash = "dead3741bae8f9616f3703aa8ae92e7bbd148e17f577e67eabea37db05003fac"
